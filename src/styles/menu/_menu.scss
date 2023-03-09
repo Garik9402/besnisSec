@@ -1,0 +1,16 @@
+.nav {
+
+   &__list {
+      display: flex;
+   }
+
+   &__list-item {}
+
+   &__item-link {
+      font-family: var(--roboto-ss);
+      font-weight: var(--fw-500);
+      font-size: var(--text-14);
+      line-height: var(--lh-20);
+      color: var(--gray-900);
+   }
+}

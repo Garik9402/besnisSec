@@ -1,0 +1,74 @@
+:root {
+   /* font-family */
+   --inter-ss: 'Inter', sans-serif;
+   --Bai-Jamjuree-ss: 'Bai Jamjuree', sans-serif;
+   --roboto-ss: 'Roboto', sans-serif;
+   /* colors */
+   --dark-theme-bg: #1e1d2e;
+   --switcher-dark-theme: #36345e;
+   --white: #ffffff;
+   --black-100: #0D1111;
+   --black-150: #192430;
+   --black-200: #202020;
+   --black-250: #17181A;
+   --black-300: #222223;
+   --black-400: #222223;
+   --black-500: #000000;
+   --gray-500: #7B827D;
+   --gray-600: #767E7E;
+   --gray-700: #718176;
+   --gray-750: #727272;
+   --gray-800: #5F5F64;
+   --gray-850: #535354;
+   --gray-900: #404041;
+   --gray-950: #414449;
+   --gray-1000: #1e1d2e;
+   --orange-1000: #E15C19;
+   /* font-size */
+   --text-80: 80px;
+   --text-60: 60px;
+   --text-52: 52px;
+   --text-36: 36px;
+   --text-35: 35px;
+   --text-30: 30px;
+   --text-28: 28px;
+   --text-25: 25px;
+   --text-24: 24px;
+   --text-22: 22px;
+   --text-20: 20px;
+   --text-18: 18px;
+   --text-16: 16px;
+   --text-15: 15px;
+   --text-14: 14px;
+   --text-13: 13px;
+   --text-12: 12px;
+   --text-11: 11px;
+   --text-9: 9px;
+   /* line-height */
+   --lh-80: 80px;
+   --lh-70: 70px;
+   --lh-62: 62px;
+   --lh-46: 46px;
+   --lh-42: 42px;
+   --lh-40: 40px;
+   --lh-38: 38px;
+   --lh-36: 36px;
+   --lh-32: 32px;
+   --lh-30: 30px;
+   --lh-28: 28px;
+   --lh-27: 27px;
+   --lh-26: 26px;
+   --lh-24: 24px;
+   --lh-22: 22px;
+   --lh-20: 20px;
+   --lh-19: 19px;
+   --lh-18: 18px;
+   --lh-16: 16px;
+   --lh-14: 14px;
+   --lh-11: 11px;
+   /* font-weight */
+   --fw-700: 700;
+   --fw-600: 600;
+   --fw-500: 500;
+   --fw-400: 400;
+}

@@ -1,0 +1,35 @@
+.block-hotter {
+   max-width: 225px;
+   width: 100%;
+   height: 154px;
+
+   &__title {
+      font-family: var(--Bai-Jamjuree-ss);
+      font-weight: var(--fw-700);
+      font-size: var(--text-35);
+      line-height: var(--lh-42);
+      color: var(--black-400);
+      margin-bottom: 18px;
+      position: relative;
+      display: inline-block;
+
+      &::before {
+         content: '';
+         position: absolute;
+         background: url(/src/img/burning.svg) no-repeat;
+         height: 80px;
+         width: 80px;
+         top: -19px;
+         left: 45px;
+      }
+   }
+
+   &__text {
+      font-family: var(--roboto-ss);
+      font-weight: var(--fw-400);
+      font-size: var(--text-16);
+      line-height: var(--lh-26);
+      letter-spacing: 0.01em;
+      color: var(--gray-800);
+   }
+}

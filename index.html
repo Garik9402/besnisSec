@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&family=Inter:wght@500;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./src/styles/variables/variables.css">
+   <link rel="stylesheet" href="./src/styles/main.scss">
+   <title>besnik</title>
+</head>
+
+<body>
+   <div class="wrapper-content">
+      <div class="hero">
+         <header class="header">
+            <div class="header__inner">
+               <div class="header__menu">
+                  <nav class="nav header__nav">
+                     <ul class="nav__list header__nav-list">
+                        <li class="nav__list-item header__nav-list-item">
+                           <a href="#" class="nav__item-link header__nav-item-link">ABOUT</a>
+                        </li>
+                        <li class="nav__list-item header__nav-list-item">
+                           <a href="#" class="nav__item-link header__nav-item-link">HOW IT WORKS</a>
+                        </li>
+                        <li class="nav__list-item header__nav-list-item">
+                           <a href="#" class="nav__item-link header__nav-item-link">CONTACT</a>
+                        </li>
+                     </ul>
+                  </nav>
+               </div>
+               <a href="#" class="header__logo logo">
+                  <svg width="83" height="15" viewBox="0 0 83 15" class="header__logo-icon logo__icon">
+                     <use href="./src/img/sprites.svg#logo"></use>
+                  </svg>
+               </a>
+               <button class="header__basket-btn">
+                  <svg class="header__basket-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M14.61 15.3317L13.6364 4.48908C13.6098 4.19298 13.3617 3.96617 13.0644 3.96617H11.0566V3.06064C11.0566 1.373 9.6837 0 7.99614 0C6.30865 0 4.93588 1.373 4.93588 3.06064V3.96617H2.92672C2.62947 3.96617 2.3813 4.19298 2.35473 4.48908L1.3773 15.3743C1.3629 15.535 1.41665 15.6942 1.52546 15.8132C1.63427 15.9322 1.7881 15.9999 1.94929 15.9999H14.0419C14.0424 15.9999 14.043 15.9999 14.0434 15.9999C14.3607 15.9999 14.6177 15.7428 14.6177 15.4256C14.6177 15.3937 14.6151 15.3622 14.61 15.3317ZM6.08445 3.06064C6.08445 2.00633 6.94205 1.14857 7.99621 1.14857C9.05045 1.14857 9.90813 2.00633 9.90813 3.06064V3.96617H6.08445V3.06064ZM2.57748 14.8514L3.45177 5.11475H4.93588V6.14172C4.93588 6.45888 5.19293 6.71601 5.51017 6.71601C5.8274 6.71601 6.08445 6.45888 6.08445 6.14172V5.11475H9.90813V6.14172C9.90813 6.45888 10.1652 6.71601 10.4824 6.71601C10.7997 6.71601 11.0567 6.45888 11.0567 6.14172V5.11475H12.5394L13.4137 14.8514H2.57748Z"
+                        fill="#6B7275" />
+                  </svg>
+               </button>
+            </div>
+         </header>
+         <div class="hero__content">
+            <div class="hero__content-inner">
+               <div class="hero__desc">
+                  <h1 class="hero__title">Banking
+                     more smart</h1>
+                  <p class="hero__text">Meet the only spend management platform and corporate card.</p>
+                  <div class="hero__btn-w">
+                     <button class="hero__btn">
+                        <svg class="hero__btn-icon-arrow" width="20" height="8" viewBox="0 0 20 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M20 4L14.9713 4.1687e-07L14.9713 3.2L5.72394e-08 3.2L3.81596e-08 4.8L14.9713 4.8L14.9713 8L20 4Z" fill="#F3FAFE" />
+                        </svg>
+                     </button>
+                     <p class="hero__btn-desc">Get your card</p>
+                  </div>
+               </div>
+               <div class="hero__card">
+                  <img class="hero__bank-card-img bank-card" src="./src/img/visa-card.jpg" alt="card">
+                  <img class="hero__text-circle-img" src="./src/img/text-circle.png" alt="text">
+                  <div class="hero__card-btns">
+                     <button class="hero__card-btn">
+                        <svg class="hero__card-btn-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M21.1406 12.2084C21.6153 12.2084 22 11.8236 22 11.349V6.35938C22 4.46394 20.4579 2.92188 18.5625 2.92188H3.4375C1.54206 2.92188 0 4.46394 0 6.35938V15.6406C0 17.5361 1.54206 19.0781 3.4375 19.0781H18.5625C20.4579 19.0781 22 17.5361 22 15.6406C22 15.166 21.6153 14.7812 21.1406 14.7812C20.666 14.7812 20.2812 15.166 20.2812 15.6406C20.2812 16.5883 19.5102 17.3594 18.5625 17.3594H3.4375C2.48978 17.3594 1.71875 16.5883 1.71875 15.6406V9.20055H20.2812V11.349C20.2812 11.8236 20.666 12.2084 21.1406 12.2084ZM1.71875 7.4818V6.35938C1.71875 5.41166 2.48978 4.64062 3.4375 4.64062H18.5625C19.5102 4.64062 20.2812 5.41166 20.2812 6.35938V7.4818H1.71875Z"
+                              fill="#84848D" />
+                        </svg>
+                     </button>
+                     <button class="hero__card-btn">
+                        <svg class="hero__card-btn-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path
+                              d="M11 0C4.93778 0 0 4.93778 0 11C0 17.0622 4.93778 22 11 22C17.0622 22 22 17.0622 22 11C22 4.93778 17.0622 0 11 0ZM11 20.0444C6.01333 20.0444 1.95556 15.9867 1.95556 11C1.95556 6.01333 6.01333 1.95556 11 1.95556C15.9867 1.95556 20.0444 6.01333 20.0444 11C20.0444 15.9867 15.9867 20.0444 11 20.0444Z"
+                              fill="#84848D" />
+                           <path
+                              d="M10.9957 6.30675C11.6707 6.30675 12.2179 5.75954 12.2179 5.08453C12.2179 4.40951 11.6707 3.8623 10.9957 3.8623C10.3206 3.8623 9.77344 4.40951 9.77344 5.08453C9.77344 5.75954 10.3206 6.30675 10.9957 6.30675Z"
+                              fill="#84848D" />
+                           <path
+                              d="M11.0002 8.13989C10.4625 8.13989 10.0225 8.57989 10.0225 9.11767V17.1843C10.0225 17.7221 10.4625 18.1621 11.0002 18.1621C11.538 18.1621 11.978 17.7221 11.978 17.1843V9.11767C11.978 8.55545 11.538 8.13989 11.0002 8.13989Z"
+                              fill="#84848D" />
+                        </svg>
+                     </button>
+                     <button class="hero__card-btn">
+                        <svg class="hero__card-btn-icon" width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_5_1014)">
+                              <path
+                                 d="M14.8625 9.45312C14.8625 8.97849 14.4848 8.59375 14.0188 8.59375H5.32813C4.86212 8.59375 4.48438 8.97849 4.48438 9.45312C4.48438 9.92776 4.86212 10.3125 5.32813 10.3125H14.0188C14.4848 10.3125 14.8625 9.92776 14.8625 9.45312Z"
+                                 fill="#84848D" />
+                              <path
+                                 d="M5.32812 12.0312C4.86212 12.0312 4.48438 12.416 4.48438 12.8906C4.48438 13.3653 4.86212 13.75 5.32812 13.75H10.6062C11.0722 13.75 11.45 13.3653 11.45 12.8906C11.45 12.416 11.0722 12.0312 10.6062 12.0312H5.32812Z"
+                                 fill="#84848D" />
+                              <path
+                                 d="M7.31407 20.2812H4.49219C3.5617 20.2812 2.80469 19.5102 2.80469 18.5625V3.4375C2.80469 2.48978 3.5617 1.71875 4.49219 1.71875H14.8656C15.7961 1.71875 16.5531 2.48978 16.5531 3.4375L16.6466 19.25C16.6466 19.7083 17.0966 19.7083 17.0966 19.7083C17.0966 19.7083 17.5466 20.2812 18.2406 8.72266V3.4375C18.2406 1.54206 16.7266 0 14.8656 0H4.49219C2.63121 0 1.11719 1.54206 1.11719 3.4375V18.5625C1.11719 20.4579 2.63121 22 4.49219 22H7.31407C7.78007 22 8.15782 21.6153 8.15782 21.1406C8.15782 20.666 7.78007 20.2812 7.31407 20.2812Z"
+                                 fill="#84848D" />
+                              <path
+                                 d="M14.0188 5.15625H5.32813C4.86212 5.15625 4.48438 5.54099 4.48438 6.01562C4.48438 6.49026 4.86212 6.875 5.32813 6.875H14.0188C14.4848 6.875 14.8625 6.49026 14.8625 6.01562C14.8625 5.54099 14.4848 5.15625 14.0188 5.15625Z"
+                                 fill="#84848D" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_5_1014">
+                                 <rect width="18" height="22" fill="white" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </button>
+                     <button class="hero__card-btn hero__card-btn--bg-black">
+                        <svg class="hero__card-btn-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_5_1029)">
+                              <path
+                                 d="M0.497501 11.9643C1.86886 10.593 4.1003 10.5929 5.47166 11.9643L7.7325 14.2252C8.01411 14.5068 8.36131 14.6989 8.73964 14.7875L8.73964 12.0301L16.5662 12.0301C17.5053 12.0301 18.3884 12.3959 19.0525 13.06L24 18.0075L18.7861 23.2213L14.6272 19.0623L9.22406 19.0623C7.53368 19.0623 5.94558 18.4052 4.75232 17.2121C1.66667 14.1267 0.182884 12.6446 1.77394e-06 12.4618L0.497501 11.9643ZM5.74676 16.2176C6.67439 17.1451 7.90933 17.6559 9.22406 17.6559L15.2097 17.6559L18.7861 21.2323L22.011 18.0075L18.058 14.0545C17.6595 13.656 17.1297 13.4366 16.5662 13.4366L10.1461 13.4366L10.1461 14.8431L14.9185 14.8431L14.9185 16.2495L9.22415 16.2495C8.28499 16.2495 7.40203 15.8838 6.73797 15.2196L4.47713 12.9589C3.82849 12.3102 2.85913 12.1729 2.07462 12.5466C3.20141 13.6726 4.64731 15.1182 5.74676 16.2176Z"
+                                 fill="white" />
+                              <path
+                                 d="M5.95189 0.778808L15.7969 0.778809L15.7969 10.6238L5.95189 10.6238L5.95189 0.778808ZM7.35831 9.21738L14.3904 9.21738L14.3904 2.18524L11.5776 2.18524L11.5776 4.99809L10.1712 4.99809L10.1712 2.18524L7.35831 2.18524L7.35831 9.21738Z"
+                                 fill="white" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_5_1029">
+                                 <rect width="24" height="24" fill="white" transform="matrix(-1 -8.74228e-08 -8.74228e-08 1 24 0)" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </button>
+                     <button class="hero__card-btn hero__card-btn--bg-black">
+                        <svg class="hero__card-btn-icon" width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_5_1024)">
+                              <path
+                                 d="M15.7252 0.16333H2.27485C1.02052 0.16333 0 1.22165 0 2.52243V11.4775C0 12.7782 1.02052 13.8366 2.27485 13.8366H15.7252C16.9795 13.8366 18 12.7782 18 11.4775V2.52243C18 1.22165 16.9795 0.16333 15.7252 0.16333ZM15.3698 1.68507L9 6.78787L2.63025 1.68507H15.3698ZM15.7252 12.3149H2.27485C1.82964 12.3149 1.46739 11.9393 1.46739 11.4776V2.67643L8.55147 8.3515C8.68353 8.45731 8.84181 8.51017 9 8.51017C9.15819 8.51017 9.31647 8.45731 9.44853 8.3515L16.5326 2.67643V11.4775C16.5326 11.9393 16.1704 12.3149 15.7252 12.3149Z"
+                                 fill="white" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_5_1024">
+                                 <rect width="18" height="14" fill="white" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </button>
+                     <button class="hero__card-btn">
+                        <svg class="hero__card-btn-icon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <g clip-path="url(#clip0_5_999)">
+                              <path
+                                 d="M10.9961 17.3379C11.5894 17.3379 12.0703 16.8569 12.0703 16.2637C12.0703 15.6704 11.5894 15.1895 10.9961 15.1895C10.4028 15.1895 9.92188 15.6704 9.92188 16.2637C9.92188 16.8569 10.4028 17.3379 10.9961 17.3379Z"
+                                 fill="#84848D" />
+                              <path
+                                 d="M11 0C4.92061 0 0 4.91979 0 11C0 17.0794 4.91979 22 11 22C17.0794 22 22 17.0802 22 11C22 4.92061 17.0802 0 11 0ZM11 20.2812C5.87052 20.2812 1.71875 16.1302 1.71875 11C1.71875 5.87052 5.86983 1.71875 11 1.71875C16.1295 1.71875 20.2812 5.86983 20.2812 11C20.2812 16.1295 16.1302 20.2812 11 20.2812Z"
+                                 fill="#84848D" />
+                              <path
+                                 d="M11 5.52148C9.10456 5.52148 7.5625 7.06355 7.5625 8.95898C7.5625 9.43362 7.94724 9.81836 8.42188 9.81836C8.89651 9.81836 9.28125 9.43362 9.28125 8.95898C9.28125 8.01127 10.0523 7.24023 11 7.24023C11.9477 7.24023 12.7188 8.01127 12.7188 8.95898C12.7188 9.9067 11.9477 10.6777 11 10.6777C10.5254 10.6777 10.1406 11.0625 10.1406 11.5371V13.6855C10.1406 14.1602 10.5254 14.5449 11 14.5449C11.4746 14.5449 11.8594 14.1602 11.8594 13.6855V12.2877C13.3403 11.9052 14.4375 10.5578 14.4375 8.95898C14.4375 7.06355 12.8954 5.52148 11 5.52148Z"
+                                 fill="#84848D" />
+                           </g>
+                           <defs>
+                              <clipPath id="clip0_5_999">
+                                 <rect width="22" height="22" fill="white" />
+                              </clipPath>
+                           </defs>
+                        </svg>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="hero__bottom">
+            <div class="hero__bottom-inner">
+               <div class="hero__bottom-block-hotter block-hotter">
+                  <h5 class="hero__bottom-block-hotter-title block-hotter__title">Hot<br /> deals for you</h5>
+                  <p class="hero__bottom-block-hotter-text block-hotter__text">Online shopping for retail sales direct to consumers</p>
+               </div>
+               <div class="hero__bottom-right-blocks">
+                  <div class="hero__bottom-block">
+                     <img class="hero__bottom-block-img" src="./src/img/img-blocks.png" alt="img"></img>
+                     <div class="hero__bottom-block-title">1.5% cashback</div>
+                     <p class="hero__bottom-block-text">Online shopping for retail sales direct to consumers</p>
+                  </div>
+                  <div class="hero__bottom-block">
+                     <img class="hero__bottom-block-img" src="./src/img/img-blocks.png" alt="img"></img>
+                     <div class="hero__bottom-block-title">30-day terms</div>
+                     <p class="hero__bottom-block-text">Online shopping for retail sales direct to consumers</p>
+                  </div>
+                  <div class="hero__bottom-block">
+                     <img class="hero__bottom-block-img" src="./src/img/img-blocks.png" alt="img"></img>
+                     <div class="hero__bottom-block-title">Save Money</div>
+                     <p class="hero__bottom-block-text">Online shopping for retail sales direct to consumers</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <main class="main">
+         <section class="desc">
+            <div class="desc__inner">
+               <div class="desc__items">
+                  <div class="desc__block">
+                     <div class="desc__block-title">We Building Social uniqueness</div>
+                     <p class="desc__block-text">The marketing strategy lays out target markets and the value.</p>
+                  </div>
+                  <div class="desc__block">
+                     <div class="desc__block-title">Social Media beyond probability</div>
+                     <p class="desc__block-text">Essentially a formula for how a business is going to compete,</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="testimional">
+            <div class="testimional__inner">
+               <div class="testimional__desc">
+                  <div class="testimional__title">1000+ Customer</div>
+                  <p class="testimional__text">Analyze any Business or Creator account—including your competitors—to find the imagery, visuals, and captions that drive audience engagement. Get
+                     social calendars planned faster and spend less time testing content strategies.</p>
+               </div>
+               <div class="testimional__table">
+                  <div class="testimional__table-block">
+                     <div class="testimional__table-block-title">PRODUCT</div>
+                     <div class="testimional__table-block-count">10,0000+ </div>
+                  </div>
+                  <div class="testimional__table-block">
+                     <div class="testimional__table-block-title">LIKES</div>
+                     <div class="testimional__table-block-count">45600</div>
+                  </div>
+                  <div class="testimional__table-block">
+                     <div class="testimional__table-block-title">SALE</div>
+                     <div class="testimional__table-block-count">576864</div>
+                  </div>
+                  <div class="testimional__table-block">
+                     <div class="testimional__table-block-title">CUSTOMERS</div>
+                     <div class="testimional__table-block-count">947444</div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="feature">
+            <div class="feature__inner">
+               <div class="feature__card-w">
+                  <img class="feature__card-img" src="/src/img/feature-card.png" alt="feature-card">
+               </div>
+               <div class="feature__desc">
+                  <div class="feature__desc-top">
+                     <h3 class="feature__title">Handoff your work smarter now</h3>
+                     <p class="feature__text">Create documentation for the collaborators (i.e. designers or devs) directly in your design file.</p>
+                  </div>
+                  <div class="feature__desc-bottom">
+                     <div class="feature__desc-block">
+                        <div class="feature__desc-block-img-w">
+                           <img class="feature__desc-block-img" src="/src/img/strategic.png" alt="strategic" />
+                        </div>
+                        <div class="feature__desc-block-content">
+                           <div class="feature__desc-block-title">Strategic</div>
+                           <p class="feature__desc-block-text">Suggests that the component spacing
+                              between cards and elements.</p>
+                        </div>
+                     </div>
+                     <div class="feature__desc-block">
+                        <div class="feature__desc-block-img-w">
+                           <img class="feature__desc-block-img" src="/src/img/shedule.png" alt="shedule" />
+                        </div>
+                        <div class="feature__desc-block-content">
+                           <div class="feature__desc-block-title">Work schedule</div>
+                           <p class="feature__desc-block-text">work schedule is the time an employee is expected to be on the job</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="newsletter">
+            <div class="newsletter__inner">
+               <div class="newsletter__content">
+                  <div class="newsletter__block-introduction">
+                     <p class="newsletter__text">Subscrie<br /> to get updated<br /> news</p>
+                     <img src="./src/img/text-circle.png" alt="text-circle" class="newsletter__circle-text">
+                  </div>
+                  <div class="newsletter__block-desc">
+                     <h2 class="newsletter__title">Subscribe our newsletter</h2>
+                     <button class="newsletter__btn">Subscribe</button>
+                  </div>
+               </div>
+               <div class="newsletter__card-w">
+                  <img class="newsletter__card-img" src="/src/img/visa-card2.png" alt="card">
+               </div>
+            </div>
+         </section>
+         <footer class="footer">
+            <div class="footer__inner">
+               <div class="footer__top">
+                  <div class="footer__top-start-items">
+                     <nav class="nav footer__nav">
+                        <ul class="nav__list footer__nav-list">
+                           <li class="nav__list-item footer__nav-list-item">
+                              <a href="#" class="nav__item-link footer__nav-item-link">ABOUT</a>
+                           </li>
+                           <li class="nav__list-item footer__nav-list-item">
+                              <a href="#" class="nav__item-link footer__nav-item-link">HOW IT WORKS</a>
+                           </li>
+                           <li class="nav__list-item footer__nav-list-item">
+                              <a href="#" class="nav__item-link footer__nav-item-link">CONTACT</a>
+                           </li>
+                        </ul>
+                     </nav>
+                  </div>
+                  <a href="#" class="footer__logo logo">
+                     <svg width="83" height="15" viewBox="0 0 83 15" class="footer__logo-icon logo__icon">
+                        <use href="./src/img/sprites.svg#logo"></use>
+                     </svg>
+                  </a>
+                  <div class="footer__top-end-items">
+                     <div class="footer__btns-action">
+                        <button class="footer__btn">Signup</button>
+                        <button class="footer__btn">Login</button>
+                     </div>
+                     <div class="footer__socials">
+                        <a href="#" class="footer__social-link">
+                           <svg class="footer__social-icon" width="6" height="12" viewBox="0 0 6 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M3.89782 12V6.53514H5.67481L5.93895 4.39547H3.89782V3.03259C3.89782 2.41516 4.06363 1.99243 4.91774 1.99243H6V0.0847928C5.47342 0.0262443 4.94412 -0.00202566 4.41453 0.000112795C2.84383 0.000112795 1.76542 0.994936 1.76542 2.82122V4.39147H0V6.53114H1.76928V12H3.89782Z"
+                                 fill="#444444" />
+                           </svg>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                           <svg class="footer__social-icon" width="12" height="13" viewBox="0 0 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M5.99536 2.91309C5.17815 2.91309 4.39441 3.23772 3.81655 3.81558C3.2387 4.39343 2.91406 5.17717 2.91406 5.99438C2.91406 6.81159 3.2387 7.59533 3.81655 8.17319C4.39441 8.75104 5.17815 9.07568 5.99536 9.07568C6.81257 9.07568 7.59631 8.75104 8.17417 8.17319C8.75202 7.59533 9.07666 6.81159 9.07666 5.99438C9.07666 5.17717 8.75202 4.39343 8.17417 3.81558C7.59631 3.23772 6.81257 2.91309 5.99536 2.91309ZM5.99536 7.99549C5.46446 7.99549 4.9553 7.78459 4.57989 7.40919C4.20448 7.03378 3.99358 6.52462 3.99358 5.99372C3.99358 5.46281 4.20448 4.95365 4.57989 4.57825C4.9553 4.20284 5.46446 3.99194 5.99536 3.99194C6.52626 3.99194 7.03542 4.20284 7.41083 4.57825C7.78624 4.95365 7.99714 5.46281 7.99714 5.99372C7.99714 6.52462 7.78624 7.03378 7.41083 7.40919C7.03542 7.78459 6.52626 7.99549 5.99536 7.99549Z"
+                                 fill="#444444" />
+                              <path
+                                 d="M11.6821 2.06975C11.5279 1.67138 11.2921 1.30961 10.99 1.00759C10.6879 0.705576 10.326 0.469972 9.92759 0.31586C9.46135 0.140842 8.9688 0.0462069 8.4709 0.0359839C7.82919 0.00799638 7.62594 0 5.99867 0C4.37139 0 4.16282 -6.70254e-08 3.52643 0.0359839C3.02891 0.0456842 2.53671 0.140339 2.07108 0.31586C1.67255 0.469792 1.31059 0.705333 1.00844 1.00737C0.706289 1.30941 0.47061 1.67127 0.316526 2.06975C0.141474 2.53595 0.0470554 3.02855 0.0373167 3.52643C0.00866281 4.16748 0 4.37072 0 5.99867C0 7.62594 -4.96485e-09 7.83319 0.0373167 8.4709C0.0473123 8.96935 0.14127 9.46113 0.316526 9.92825C0.471042 10.3266 0.70695 10.6883 1.00918 10.9903C1.3114 11.2923 1.6733 11.5279 2.07175 11.6821C2.5365 11.8642 3.0289 11.9656 3.52777 11.982C4.16948 12.01 4.37272 12.0187 6 12.0187C7.62728 12.0187 7.83585 12.0187 8.47223 11.982C8.97008 11.9719 9.46262 11.8775 9.92892 11.7028C10.3272 11.5483 10.689 11.3125 10.9911 11.0104C11.2932 10.7083 11.529 10.3466 11.6835 9.94825C11.8587 9.48179 11.9527 8.99 11.9627 8.49156C11.9913 7.85051 12 7.64727 12 6.01932C12 4.39138 12 4.18481 11.9627 3.54709C11.9549 3.04216 11.86 2.54237 11.6821 2.06975ZM10.8705 8.42159C10.8662 8.80562 10.7961 9.18608 10.6633 9.54642C10.5632 9.80555 10.41 10.0409 10.2135 10.2372C10.017 10.4336 9.78162 10.5867 9.52243 10.6866C9.16608 10.8188 8.78967 10.8889 8.4096 10.8938C7.77654 10.9231 7.59796 10.9305 5.97468 10.9305C4.35007 10.9305 4.18414 10.9305 3.53909 10.8938C3.15921 10.8892 2.78298 10.8191 2.42692 10.6866C2.16683 10.5873 1.93048 10.4345 1.73316 10.2381C1.53584 10.0417 1.38194 9.80605 1.28143 9.54642C1.15045 9.18995 1.08039 8.81398 1.07419 8.43425C1.04554 7.8012 1.03887 7.62261 1.03887 5.99933C1.03887 4.37539 1.03887 4.20946 1.07419 3.56375C1.0785 3.17993 1.14859 2.7997 1.28143 2.43958C1.48467 1.91382 1.90116 1.5 2.42692 1.29876C2.78316 1.16691 3.15928 1.09682 3.53909 1.09151C4.17281 1.06286 4.35073 1.05486 5.97468 1.05486C7.59862 1.05486 7.76522 1.05486 8.4096 1.09151C8.7897 1.09609 9.16617 1.1662 9.52243 1.29876C9.7816 1.39889 10.017 1.55211 10.2134 1.74858C10.4099 1.94504 10.5631 2.18041 10.6633 2.43958C10.7942 2.79606 10.8643 3.17203 10.8705 3.55175C10.8992 4.18547 10.9065 4.36339 10.9065 5.98734C10.9065 7.61062 10.9065 7.78521 10.8778 8.42226H10.8705V8.42159Z"
+                                 fill="#444444" />
+                           </svg>
+                        </a>
+                        <a href="#" class="footer__social-link">
+                           <svg class="footer__social-icon" width="13" height="9" viewBox="0 0 13 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                 d="M12.7355 1.415C12.6616 1.14357 12.517 0.896024 12.3162 0.697014C12.1154 0.498004 11.8654 0.354468 11.5911 0.280692C10.5739 0.00450089 6.5045 4.87928e-06 6.5045 4.87928e-06C6.5045 4.87928e-06 2.43578 -0.00449139 1.41795 0.259496C1.14379 0.336667 0.894302 0.482233 0.693428 0.68222C0.492554 0.882207 0.347041 1.1299 0.270859 1.40152C0.00259923 2.40737 9.51671e-07 4.49358 9.51671e-07 4.49358C9.51671e-07 4.49358 -0.0025972 6.59006 0.263714 7.58564C0.413109 8.13609 0.851549 8.57094 1.40885 8.71931C2.43643 8.9955 6.49476 9 6.49476 9C6.49476 9 10.5641 9.00449 11.5813 8.74115C11.8557 8.6675 12.106 8.52429 12.3073 8.32569C12.5086 8.12709 12.6539 7.87996 12.729 7.60876C12.998 6.60355 12.9999 4.51798 12.9999 4.51798C12.9999 4.51798 13.0129 2.42086 12.7355 1.415ZM5.20282 6.42628L5.20607 2.57244L8.58823 4.50257L5.20282 6.42628Z"
+                                 fill="#444444" />
+                           </svg>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="footer__bottom">
+                  <p class="footer__bottom-text footer__bottom-text--type-copyright">Copyright © 2020.Besnik creative</p>
+                  <div class="footer__bottom-line"></div>
+                  <p class="footer__bottom-text">Designed by Besnik</p>
+               </div>
+            </div>
+         </footer>
+      </main>
+   </div>
+   <script type="module" src="./src/js/script.js"></script>
+</body>
+
+</html>
