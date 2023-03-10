@@ -1,0 +1,74 @@
+@import '../mixins/mixin';
+
+@include mq (lg) {
+   .popup-menu {
+
+      &__overlay {
+         position: fixed;
+         top: 0;
+         left: 0;
+         right: 0;
+         bottom: 0;
+         z-index: 5;
+         height: 0;
+
+         &.active {
+            background: linear-gradient(90deg, rgba(0, 0, 0, 0.9501050420168067) 0%, rgba(0, 0, 0, 0.7708333333333334) 0%);
+            height: 100%;
+         }
+      }
+
+      &__inner {
+         position: absolute;
+         width: 100%;
+         bottom: -100%;
+         left: 0;
+         background-color: white;
+         border-radius: 10px 10px 0px 0px;
+      }
+
+      &__overlay.active &__inner {
+         bottom: 0;
+         transition: all 0.3s ease;
+      }
+
+      &__swipe {
+         position: relative;
+         display: inline-block;
+         background-color: transparent;
+         width: 100%;
+         z-index: 10;
+
+         &::before {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 6px;
+            background-color: bisque;
+            right: 45%;
+            top: 5px;
+            transform: translateX(-50%);
+            border-radius: 5px;
+         }
+      }
+
+      &__menu {
+         padding: 40px 15px;
+      }
+
+      &__nav {}
+
+      &__nav-list {
+         display: flex;
+         flex-direction: column;
+      }
+
+      &__nav-list-item {
+         &:not(:last-child) {
+            margin-bottom: 30px;
+         }
+      }
+
+      &__nav-item-link {}
+   }
+}

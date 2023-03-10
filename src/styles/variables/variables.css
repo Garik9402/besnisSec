@@ -26,8 +26,10 @@
    --orange-1000: #E15C19;
    /* font-size */
    --text-80: 80px;
+   --text-70: 70px;
    --text-60: 60px;
    --text-52: 52px;
+   --text-46: 46px;
    --text-36: 36px;
    --text-35: 35px;
    --text-30: 30px;
@@ -48,6 +50,7 @@
    --lh-80: 80px;
    --lh-70: 70px;
    --lh-62: 62px;
+   --lh-54: 54px;
    --lh-46: 46px;
    --lh-42: 42px;
    --lh-40: 40px;

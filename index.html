@@ -32,10 +32,13 @@
                   </nav>
                </div>
                <a href="#" class="header__logo logo">
-                  <svg width="83" height="15" viewBox="0 0 83 15" class="header__logo-icon logo__icon">
+                  <svg viewBox="0 0 83 15" class="header__logo-icon logo__icon">
                      <use href="./src/img/sprites.svg#logo"></use>
                   </svg>
                </a>
+               <div class="header__burger">
+                  <div class="header__burger-line"></div>
+               </div>
                <button class="header__basket-btn">
                   <svg class="header__basket-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                      <path
@@ -346,7 +349,28 @@
          </footer>
       </main>
    </div>
-   <script type="module" src="./src/js/script.js"></script>
+   <div class="popup-menu popup-menu__overlay">
+      <div class="popup-menu__inner">
+         <button class="popup-menu__swipe"></button>
+         <div class="popup-menu__menu">
+            <nav class="nav popup-menu__nav">
+               <ul class="nav__list popup-menu__nav-list">
+                  <li class="nav__list-item popup-menu__nav-list-item menu-item">
+                     <a href="#" class="nav__item-link  nav__item-link--popup-menu ">ABOUT</a>
+                  </li>
+                  <li class="nav__list-item popup-menu__nav-list-item menu-item">
+                     <a href="#" class="nav__item-link  nav__item-link--popup-menu">HOW IT WORKS</a>
+                  </li>
+                  <li class="nav__list-item popup-menu__nav-list-item menu-item">
+                     <a href="#" class="nav__item-link  nav__item-link--popup-menu">CONTACT</a>
+                  </li>
+               </ul>
+            </nav>
+         </div>
+      </div>
+   </div>
+   <script src="./src/js/swiped-events.js"></script>
+   <script src="./src/js/script.js"></script>
 </body>
 
 </html>

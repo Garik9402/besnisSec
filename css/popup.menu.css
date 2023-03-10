@@ -1,0 +1,55 @@
+@media only screen and (max-width: 768px) {
+  .popup-menu__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    height: 0;
+  }
+  .popup-menu__overlay.active {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.950105042) 0%, rgba(0, 0, 0, 0.7708333333) 0%);
+    height: 100%;
+  }
+  .popup-menu__inner {
+    position: absolute;
+    width: 100%;
+    bottom: -100%;
+    left: 0;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+  }
+  .popup-menu__overlay.active .popup-menu__inner {
+    bottom: 0;
+    transition: all 0.3s ease;
+  }
+  .popup-menu__swipe {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    width: 100%;
+    z-index: 10;
+  }
+  .popup-menu__swipe::before {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 6px;
+    background-color: bisque;
+    right: 45%;
+    top: 5px;
+    transform: translateX(-50%);
+    border-radius: 5px;
+  }
+  .popup-menu__menu {
+    padding: 40px 15px;
+  }
+  .popup-menu__nav-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .popup-menu__nav-list-item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
